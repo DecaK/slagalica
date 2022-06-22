@@ -1,6 +1,6 @@
 let auth1='b'
 let auth2='c'
-//probavamo
+//probavamo2
 window.onload=function(){
   let polja = document.querySelectorAll('.slovo1')
   eel.get_slova()(function(res){
