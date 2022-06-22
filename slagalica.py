@@ -30,6 +30,7 @@ def get_slova():
     print(slovaZaIgru)
     return slovaZaIgru
 
+#submit word
 @eel.expose
 def submit_word(auth, word):
     print(len(word))
