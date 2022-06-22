@@ -1,0 +1,34 @@
+#wrap1,
+#wrap2
+   display: flex
+   justify-content: center
+   align-items: center
+   width: 100%
+   height: 100%
+   flex-direction: column
+   border: 1px solid black
+   overflow: hidden
+   #donje-polje1,
+   #donje-polje2
+      border: 1px solid green
+      padding: 2%
+   .polje
+      .slova-red
+         width: 100%
+         display: flex
+         justify-content: center
+         align-items: center
+         flex-direction: row
+         // border: 1px solid red
+         .slovo1,
+         .slovo2
+            border: none
+            background-color: gray
+            padding: 30%
+            margin: 2%
+            width: 1vw
+            cursor: pointer
+            transition: 0.1s
+            &:hover
+               background-color: orange
+

@@ -1,0 +1,41 @@
+#wrap1,
+#wrap2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  border: 1px solid black;
+  overflow: hidden; }
+  #wrap1 #donje-polje1,
+  #wrap1 #donje-polje2,
+  #wrap2 #donje-polje1,
+  #wrap2 #donje-polje2 {
+    border: 1px solid green;
+    padding: 2%; }
+  #wrap1 .polje .slova-red,
+  #wrap2 .polje .slova-red {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    #wrap1 .polje .slova-red .slovo1,
+    #wrap1 .polje .slova-red .slovo2,
+    #wrap2 .polje .slova-red .slovo1,
+    #wrap2 .polje .slova-red .slovo2 {
+      border: none;
+      background-color: gray;
+      padding: 30%;
+      margin: 2%;
+      width: 1vw;
+      cursor: pointer;
+      transition: 0.1s; }
+      #wrap1 .polje .slova-red .slovo1:hover,
+      #wrap1 .polje .slova-red .slovo2:hover,
+      #wrap2 .polje .slova-red .slovo1:hover,
+      #wrap2 .polje .slova-red .slovo2:hover {
+        background-color: orange; }
+
+/*# sourceMappingURL=style.css.map */
