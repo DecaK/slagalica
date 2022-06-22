@@ -1,6 +1,6 @@
 let auth1='b'
 let auth2='c'
-
+//ergjwn
 window.onload=function(){
   let polja = document.querySelectorAll('.slovo1')
   eel.get_slova()(function(res){
