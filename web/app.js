@@ -50,7 +50,7 @@ window.onload=function(){
 	document.getElementById("send2").addEventListener('click', function(){
 		window.location = "mojbroj.html";
 	});
-	document.getElementById("go_skocko").addEventListener('click', fucntion(){
+	document.getElementById("go_skocko").addEventListener('click', function(){
 		window.location = "skocko.html";
-	})
+	});
 }

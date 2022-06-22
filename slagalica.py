@@ -39,7 +39,6 @@ def submit_word(auth, word):
     if validate_word(word, slova):
         igrac.set_rec(word)
         return True
-    print('{} je submit rec "{}"'.format(igrac, word))
     return False
 
 @eel.expose
